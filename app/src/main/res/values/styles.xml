@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--액션바 가리기-->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+
+
+        <!--배경이지로 aaa 파일을 사용-->
+        <item name="android:windowBackground">@drawable/aaa</item>
+
+    </style>
+
+
+</resources>
